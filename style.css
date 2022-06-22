@@ -1,0 +1,110 @@
+* {
+    margin: 1px;
+    padding: 0;
+    font-family: 'cursive', monospace;
+}
+
+#body {
+    background-image: url(Logo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+
+}
+
+.navbar ul li {
+    color: white;
+    display: inline-block;
+    margin: 25px 14px;
+    font-size: 4vh;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.starting {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#starting {
+    color: antiquewhite;
+    font-size: 2vh;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#H1 {
+    color: yellow;
+    font-size: 4vh;
+
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+#Pic {
+    border: ridge rgb(0, 255, 221) 5px;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 50vh;
+    width: 25vw;
+}
+
+.story {
+    display: flex;
+    justify-content: center;
+}
+
+#Story {
+    color: rgb(0, 255, 255);
+    font-size: 2vh;
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#H2 {
+    color: rgb(102, 255, 0);
+    font-size: 4vh;
+}
+
+.bioflexbox {
+    display: flex;
+    justify-content: center;
+}
+
+
+.Bio {
+    color: white;
+    font-size: 2vh;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+}
+
+#End {
+    color: rgb(255, 255, 255);
+    font-size: 2vh;
+}

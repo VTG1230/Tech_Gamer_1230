@@ -1,0 +1,40 @@
+* {
+    margin: 2;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-image: url(Logo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'cursive', monospace;
+}
+
+.Nav {
+    height: 7vh;
+    color: cyan;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.Nav ul li {
+    display: inline-block;
+    margin: 25px 14px;
+    font-size: 4vh;
+}
+
+.Nav ul li a {
+    color: cyan;
+    text-decoration: none;
+}
+#Email {
+    color: aqua;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.Email {
+    color: aqua;
+    text-align: center;
+    font-size: 3vh;
+}

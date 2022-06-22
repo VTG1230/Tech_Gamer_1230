@@ -1,0 +1,92 @@
+* {
+    margin: 2;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-image: url(GB.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'cursive', monospace;
+}
+
+.nav {
+    height: 70px;
+    color: cyan;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 25px 14px;
+    font-size: 4vh;
+}
+
+.nav ul li a {
+    color: cyan;
+    text-decoration: none;
+}
+
+#article {
+    color: whitesmoke;
+    font-size: 2vh;
+}
+
+#h1 {
+    color: darkgoldenrod;
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+}
+
+#h2 {
+    color: crimson;
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    height: 65vh;
+    width: 30vw;
+    border: 2vh ridge cyan;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#Para {
+    color: aquamarine;
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+}
+
+#h22 {
+    font-size: 3vh;
+    color: rgb(255, 0, 0);
+}
+
+#Link {
+    border: 5px ridge darkcyan;
+    border-radius: 25px;
+    width: 15vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+#aside {
+    font-size: 2vh;
+    color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+
+#footer {
+    font-weight: bolder;
+    font-size: 2vh;
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
